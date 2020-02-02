@@ -3,7 +3,8 @@ const RoomContext = React.createContext()
 
 class RoomProvider extends Component {
     state = {
-        name: "hung"
+        name: "hung",
+        vi:"an com chua"
     }
     render() {
         return (
@@ -15,4 +16,5 @@ class RoomProvider extends Component {
         )
     }m
 }
-export { RoomContext, RoomProvider }
+const Hung= RoomContext.Consumer
+export { RoomContext, RoomProvider,Hung }

@@ -29,6 +29,7 @@ export default class Home extends Component {
                   
                 </div>
                <button className="button"onClick={this.truyenprops}>TEST </button>
+               
               
             </div>
         )

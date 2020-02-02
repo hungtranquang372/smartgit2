@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Home from './components/Home'
 import Error from './components/Error'
-import Test from './components/Hung'
+import Test from './components/Test'
 import Services from './components/Services'
 export default class App extends Component {
   constructor(props) {
